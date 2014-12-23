@@ -15,6 +15,9 @@ Q. 로컬 개발 환경에 Tomcat 서버를 시작한 후 http://localhost:8080�
 	* <welcome-file>index.jsp</welcome-file>
 	* 을 통해 index.jsp로 이동한다. 
 	* (이 프로젝트에선 여기를 따라가는게 아니라 톰켓 전체의 설정을 따라가는 것 같다.)
+	
+* @Weblistener가 동작하여 init
+	* JwpContextLoaderListender에서 초기화
 
 * 맵핑에 의해 ListController가 생성.
 	* index.jsp에서
